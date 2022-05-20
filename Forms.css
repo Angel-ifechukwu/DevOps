@@ -52,15 +52,14 @@
  position: relative;
  width: 60px;
  height: 60px;
- background-image: url('menu\ \(1\).png');
-background-position: center;
+ background-image: url('images/logos/Menu.png');
 background-size: 30px ;
 background-repeat: no-repeat;
 cursor:pointer;
 }
 
 .toggle.active {
- background-image: url('circle-xmark-solid.png');
+ background-image: url('images/cancel.png');
 background-position: center;
 background-repeat: no-repeat;
 background-size: 25px;
@@ -92,14 +91,14 @@ background-size: 25px;
  z-index: 10;
 }
 
-.text h2{
- font-size: 5em;
+.text h3{
+ font-size: 4em;
  font-weight: 800;
  line-height: 1em;
  text-transform: uppercase;
 }
 
-.text h3 {
+.text h1 {
  font-size: 3.5em;
  font-weight: 500;
  line-height: 1em;
